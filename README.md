@@ -4,7 +4,7 @@ The objective of this project was to forecast fluctuations on a daily basis in t
 
 The data was obtained with Octoparse, which was programed to collect tweets from the profiles of Barack Obama, Donald Trump, Elon Musk, Hilary Clinton, The Economist, Bloomberg Economics and Bill Gates, between 04/01/2020 to 10/01/2020. 
 
-To perform the analysis, Bag of Words was used. This way of extracting features consists in creating a vector which contains the frequencies of each word as it appears on the sentence. That means that only the word frequencies matter, not the order that the word appear in the sentence. To improve the analysis, different minimum frequencies were tested, to avoid words with no relevance. 
+To perform the analysis, Bag of Words was used. This way of extracting features consists in creating a vector which contains the frequencies of each word that they appear on the sentence. Thus, only the word frequencies matter, not the order that the word appear in the sentence. To improve the analysis, different minimum frequencies were tested, to avoid words with no relevance. 
 
 Because of this approach, the tweets from the same day were merged in one text. In this way we can label less data and join all the "daily information".
 
